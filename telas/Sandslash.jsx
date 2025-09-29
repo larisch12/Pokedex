@@ -1,15 +1,15 @@
 import { View, Text, StyleSheet, Image} from 'react-native';
 
-export default function Bulbassauro(){
+export default function Sandslash(){
     return(
         <View style={estilo.tela}>
             <Image
-                source={require('../imagens/bulbassauro.png')}
+                source={require('../imagens/Sandslash.png')}
                 style={{height: 200, width: 300}}
                 resizeMode='contain'
             />
             <Text style={{fontSize: 40, color: 'white', fontWeight: '600'}}>
-                Bulbassauro
+            Sandslash
             </Text>
             <View style={estilo.cxDetalhes}>
                 <Text style={{
@@ -28,7 +28,7 @@ export default function Bulbassauro(){
 
 export const estilo = StyleSheet.create({
     tela:{
-        backgroundColor: '#2bb72b',
+        backgroundColor: '#b28b32',
         flex: 1,
         alignItems: 'center',
         padding: 30

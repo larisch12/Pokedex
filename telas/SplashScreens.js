@@ -1,22 +1,37 @@
-import { Text, StatusBar, ImageBackground, StyleSheet, Image } from "react-native";
-import Fundo from '../imagens/fundo.jpg';
-import Carregando from '../imagens/carregando.gif';
+import { useEffect } from "react";
+import { Text, View, StatusBar, Image, ImageBackground, StyleSheet } from "react-native";
+import Carregando from "../imagens/carregando.gif";
+import Fundo from "../imagens/fundo.jpg";
 
-export default function SplashScreens(){
+export default function SplashScreen({navigation}){
+    useEffect(()=>{
+        setTimeout(() => navigation.replace('Pokemons'), 3000);
+    },[]);
     return (
-        <ImageBackground source={Fundo} style={styles.container}>
-            <StatusBar hidden={true}/>
-        </ImageBackground>
-    );
+        <ImageBackground
+            source={Fundo}
+            resizeMode="cover"
+            style={estilo.container}>
+            <StatusBar hidden={true} /> 
+            <Image
+                source={Carregando}
+                style={{height: 40}}
+                resizeMode="contain"
+            />
+            <Text style={{color: "white"}}>Carregando...</Text>
+           
+        </ImageBackground>        
+    )
 }
 
-const styles = StyleSheet.create({
-    container: {
+export const estilo = StyleSheet.create({
+    container:{
         flex: 1,
-        width: '100%',
-        height: '100%',
-        justifyContent: 'flex-end',
+        width: "100%",
+        height: "100%",
         alignItems: 'center',
-    },
-});
-
+        justifyContent: 'flex-end',
+        color: "white",
+        fontFamily: "Arial"
+    }
+})
