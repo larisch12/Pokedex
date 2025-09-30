@@ -16,10 +16,10 @@ export default function Zubat(){
                     padding: 20,
                     fontSize: 20
                 }}>
-                    - Altura: 0.7m <br/>
-                    - Peso: 6.9kg<br/>
-                    - Tipo: Planta/Poison<br/>
-                    - Fraquezas: Fogo, Ice, Flying e Psíquico
+                    - Altura: 0.8m <br/>
+                    - Peso: 7.5kg<br/>
+                    - Tipo: Venenoso/Voador<br/>
+                    - Fraquezas: Elétrico, Psíquico e Rocha
                 </Text>
             </View>
         </View>

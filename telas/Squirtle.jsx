@@ -16,10 +16,10 @@ export default function Squirtle(){
                     padding: 20,
                     fontSize: 20
                 }}>
-                    - Altura: 0.7m <br/>
-                    - Peso: 6.9kg<br/>
-                    - Tipo: Planta/Poison<br/>
-                    - Fraquezas: Fogo, Ice, Flying e Psíquico
+                    - Altura: 0.5m <br/>
+                    - Peso: 9.0kg<br/>
+                    - Tipo: Água<br/>
+                    - Fraquezas: Elétrico e Grama
                 </Text>
             </View>
         </View>

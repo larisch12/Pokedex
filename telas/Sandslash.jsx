@@ -16,10 +16,10 @@ export default function Sandslash(){
                     padding: 20,
                     fontSize: 20
                 }}>
-                    - Altura: 0.7m <br/>
-                    - Peso: 6.9kg<br/>
-                    - Tipo: Planta/Poison<br/>
-                    - Fraquezas: Fogo, Ice, Flying e Psíquico
+                    - Altura: 1.0m <br/>
+                    - Peso: 29.5kg<br/>
+                    - Tipo: Terra<br/>
+                    - Fraquezas: Água, Gelo, Planta
                 </Text>
             </View>
         </View>

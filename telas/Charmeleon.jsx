@@ -16,10 +16,10 @@ export default function Charmeleon(){
                     padding: 20,
                     fontSize: 20
                 }}>
-                    - Altura: 0.7m <br/>
-                    - Peso: 6.9kg<br/>
-                    - Tipo: Planta/Poison<br/>
-                    - Fraquezas: Fogo, Ice, Flying e Psíquico
+                    - Altura: 1.1m <br/>
+                    - Peso: 19.0kg<br/>
+                    - Tipo: Fogo<br/>
+                    - Fraquezas: Água, Terra e Rocha
                 </Text>
             </View>
         </View>
